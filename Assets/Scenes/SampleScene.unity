@@ -934,7 +934,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 534822432}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 439835896}
+        m_TargetAssemblyTypeName: ControladorVehiculos, Assembly-CSharp
+        m_MethodName: Acelerar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &534822432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1057,7 +1069,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 552805156}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 439835896}
+        m_TargetAssemblyTypeName: ControladorVehiculos, Assembly-CSharp
+        m_MethodName: SeleccionarVehiculo
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 552805158}
+          m_ObjectArgumentAssemblyTypeName: Vehiculo, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &552805156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1108,10 +1132,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 058a44a2215dd39468ffc0f74a07a946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Nombre: Ferrari Enzo
-  Velocidad: 350
-  CapacidadDeCombustible: 200
-  CombustibleActual: 150
+  Nombre: Ferrari
+  Velocidad: 300
+  CapacidadDeCombustible: 60
+  CombustibleActual: 10
   NumeroDePuertas: 2
 --- !u!1 &619394800
 GameObject:
@@ -1679,7 +1703,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1165379426}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 439835896}
+        m_TargetAssemblyTypeName: ControladorVehiculos, Assembly-CSharp
+        m_MethodName: Tanquear
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1165379426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1934,7 +1970,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1334203611}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 439835896}
+        m_TargetAssemblyTypeName: ControladorVehiculos, Assembly-CSharp
+        m_MethodName: Frenar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1334203611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2141,7 +2189,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1490834136}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 439835896}
+        m_TargetAssemblyTypeName: ControladorVehiculos, Assembly-CSharp
+        m_MethodName: SeleccionarVehiculo
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1490834138}
+          m_ObjectArgumentAssemblyTypeName: Vehiculo, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1490834136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2192,10 +2252,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a497a0d751c87b4696fa65455b0e55f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Nombre: Ducati Panigale
-  Velocidad: 200
-  CapacidadDeCombustible: 100
-  CombustibleActual: 50
+  Nombre: 
+  Velocidad: 0
+  CapacidadDeCombustible: 0
+  CombustibleActual: 0
   NumeroDePuertas: 0
   TipoManillar: 
 --- !u!1 &1549170664
@@ -2282,7 +2342,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1549170667}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 439835896}
+        m_TargetAssemblyTypeName: ControladorVehiculos, Assembly-CSharp
+        m_MethodName: SeleccionarVehiculo
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1549170669}
+          m_ObjectArgumentAssemblyTypeName: Vehiculo, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1549170667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2333,11 +2405,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2069fcfd50752544ab0381d7a483f309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Nombre: NPR
-  Velocidad: 120
-  CapacidadDeCombustible: 250
-  CombustibleActual: 100
-  NumeroDePuertas: 4
+  Nombre: 
+  Velocidad: 0
+  CapacidadDeCombustible: 0
+  CombustibleActual: 0
+  NumeroDePuertas: 0
   CapacidadDeCarga: 0
   cargaActual: 0
 --- !u!1 &1573204793

@@ -9,7 +9,7 @@ public class Camion : Vehiculo
     public int cargaActual;
     public override void Acelerar()
     {
-        Debug.Log(Nombre + " esta acelerando a" + Velocidad + " 358Km/h");
+        Debug.Log(Nombre + " esta acelerando a" + Velocidad + " Km/h");
     }
 
 }
