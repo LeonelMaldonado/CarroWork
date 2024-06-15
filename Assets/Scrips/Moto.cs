@@ -5,6 +5,7 @@ using UnityEngine;
 public class Moto : Vehiculo
 {
     public int NumeroDePuertas;
+    public string TipoManillar;
 
     public override void Acelerar()
     {
