@@ -14,7 +14,7 @@ public class Vehiculo : MonoBehaviour
 
     public virtual void Acelerar()
     {
-        Debug.Log(Nombre + " esta acelerando a" + Velocidad + " 358Km/h");
+        Debug.Log(Nombre + " esta acelerando a " + Velocidad + " Km/h");
     }
 
     public void Frenar()
